@@ -15,22 +15,49 @@
 
 // console.log(b + c);
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
 
-var a ;
-let b ;
-const c = 7 ;
+// var a ;
+// let b ;
+// const c = 7 ;
 
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-a = 3;
-b = 5;
+// a = 3;
+// b = 5;
 
 
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+
+
+
+
+const car =
+{
+    wheel: 4,
+    carName : "hoJun",
+    drive : function() {
+        console.log("부릉 부릉");
+    }
+};
+
+console.log(car.wheel);
+console.log(typeof car.wheel);
+// console.log(car.carName);
+// console.log(car.drive);
+car.drive();
+console.log(Object.keys(car)[0]);
+console.log(Object.values(car));
+console.log(Object.values(car.wheel));
+
+car.door = 2;
+
+console.log(car);
