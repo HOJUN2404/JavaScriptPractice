@@ -9,11 +9,32 @@
     <p id="demo">하이루</p>
     <p>여기에는 왜 안들어가 ? 들어가는구나 ? </p>
 
-    <button onclick="document.write(4 * 5);"  style="color:brown; background-color:yellow;"> 눌러보든가 </button>
+    <button onclick=nameInput()  style="color:brown; background-color:yellow;"> 눌러보든가 </button>
     <button onclick="alert('하ㅏ하');"  style="color:brown; background-color:yellow;"> 눌러보든가 </button>
 
 <script>
     var str = '김호준 맞아 이게 ? ';
+
+    
+
+    function nameInput () {
+        name = prompt("이름을 입력하세용");
+
+        
+        if(typeof name === 'String'){
+            alertName(name);
+            console.log("문자열 입니다.")
+        }
+        else if(typeof name ==="number"){
+            alertName(name);
+            console.log("숫자입니다.")
+        }
+        
+    };
+
+    function alertName(name){
+            console.log(name);
+        };
 
     document.getElementById("demo").innerHTML = str;
 </script>
