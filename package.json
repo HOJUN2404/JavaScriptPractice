@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "name": "javascriptpracitce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HOJUN2404/JavaScriptPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HOJUN2404/JavaScriptPractice/issues"
+  },
+  "homepage": "https://github.com/HOJUN2404/JavaScriptPractice#readme",
+  "description": ""
 }
