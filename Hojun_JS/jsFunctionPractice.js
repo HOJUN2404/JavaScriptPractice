@@ -29,10 +29,10 @@ console.log(num1);
 
 // ES6 에서 도입된 화살표 함수
 
-const name1 = prompt("이름을 입력하세요");
-function(name1) {
-    console.log(name1 + "님 안녕하세요");
-};
+// const name1 = prompt("이름을 입력하세요");
+// function(name1) {
+//     console.log(name1 + "님 안녕하세요");
+// };
 
 
 
